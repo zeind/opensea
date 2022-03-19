@@ -1,0 +1,128 @@
+t
+let t = await q.wait();
+let q = await jft.mintTo("0x70997970c51812dc3a010c7d01b50e0d17dc79c8");
+s
+let s = await jft.deployed();
+tx = await jft.deployed();
+let tx = jft.wait();
+jft = await JFT.deploy("0x70997970c51812dc3a010c7d01b50e0d17dc79c8");
+const jft = await JFT.deploy("0x70997970c51812dc3a010c7d01b50e0d17dc79c8");
+const jft = await JFT.deploy();
+JFT = await ethers.getContractFactory("JFT");
+const JFT = await JFT.deploy("0x70997970c51812dc3a010c7d01b50e0d17dc79c8");
+await jft._burn(1);
+await jft.availableTokenCount();
+await jft.renounceOwnership(1);
+await jft.denounceOwnership(1);
+q.gasUsed
+await jft.mintTo("0x70997970c51812dc3a010c7d01b50e0d17dc79c8");
+await jft.getUsedTokens();
+await jft.mintTo("0x70997970c51812dc3a010c7d01b50e0d17dc79c8");
+await jft.getUsedTokens();
+await jft.mintTo("0x70997970c51812dc3a010c7d01b50e0d17dc79c8");
+await jft.getUsedTokens();
+await jft.mintTo("0x70997970c51812dc3a010c7d01b50e0d17dc79c8");
+await jft.getUsedTokens();
+await jft.mintTo("0x70997970c51812dc3a010c7d01b50e0d17dc79c8");
+await jft.getUsedTokens();
+await jft.mintTo("0x70997970c51812dc3a010c7d01b50e0d17dc79c8");
+await jft.getUsedTokens();
+await jft.mintTo("0x70997970c51812dc3a010c7d01b50e0d17dc79c8");
+await jft.getUsedTokens();
+await jft.mintTo("0x70997970c51812dc3a010c7d01b50e0d17dc79c8");
+await jft.getUsedTokens();
+await jft.mintTo("0x70997970c51812dc3a010c7d01b50e0d17dc79c8");
+q.wait
+await jft.mintTo("0x70997970c51812dc3a010c7d01b50e0d17dc79c8");
+const q = jft.mintTo("0x70997970c51812dc3a010c7d01b50e0d17dc79c8");
+await jft.getUsedTokens();
+jft.getUsedTokens();
+const q = jft.mintTo("0x70997970c51812dc3a010c7d01b50e0d17dc79c8");
+cls
+await jft.deployed();
+await jft.deployed().wait();
+await jft.deployed();
+const jft = await JFT.deploy("0x70997970c51812dc3a010c7d01b50e0d17dc79c8");
+const JFT = await ethers.getContractFactory("JFT");
+tx
+const tx = await jft.deployed();
+jft = await JFT.deploy("0x70997970c51812dc3a010c7d01b50e0d17dc79c8");
+const jft = await JFT.deploy("0x70997970c51812dc3a010c7d01b50e0d17dc79c8");
+const jft = await JFT.deploy();
+const JFT = await ethers.getContractFactory("JFT");
+tx = await jft.mintTo("0x70997970c51812dc3a010c7d01b50e0d17dc79c8");
+rc = await tx;
+rc = tx.wait;
+ rc = tx.wait;
+let rc = tx.wait;
+let rc = tx.wait();
+tx
+const ts = await jft.mintTo("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266");
+const tx = await jft.mintTo("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266");
+const tx = jft.mintTo("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266");
+book.getPastEvents;
+    let incomingTokenTransferEvents = await jft.getPastEvents('Transfer', { filter: {'to': toAddr}, fromBlock: 0, toBlock: 'latest'})
+    let toAddr = '0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266';
+await jft.filters.Transfer(null, "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266")
+await jft.filters.Transfer(null, "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266");
+await jft.filters.Transfer("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266");
+jft.filters.Transfer(filter);
+    };
+        ]
+            ethers.utils.hexZeroPad("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266", 32)
+            null,
+            ethers.utils.id("Transfer(address,address,uint256)"),
+        topics: [
+        address: "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+filter = {
+    };
+        ]
+            ethers.hexZeroPad("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266", 32)
+            null,
+            ethers.utils.id("Transfer(address,address,uint256)"),
+        topics: [
+        address: "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+filter = {
+    };
+        ]
+            ethers.hexZeroPad(myAddress, 32)
+            null,
+            ethers.utils.id("Transfer(address,address,uint256)"),
+        topics: [
+        address: "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+filter = {
+    };
+        ]
+            hexZeroPad(myAddress, 32)
+            null,
+            ethers.utils.id("Transfer(address,address,uint256)"),
+        topics: [
+        address: "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+filter = {
+    };
+        ]
+            hexZeroPad(myAddress, 32)
+            null,
+            utils.id("Transfer(address,address,uint256)"),
+        topics: [
+        address: "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+filter = {
+    ]
+        hexZeroPad(myAddress, 32)
+        null,
+        utils.id("Transfer(address,address,uint256)"),
+    topics: [
+    address: tokenAddress,
+filter = {
+await jft.availableTokenCount();
+jft.availableTokenCount();
+jft
+jft.abi
+await jft.totalSupply();
+await jft.balanceOf("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266");
+jft.mintTo("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266");
+await jft.mintTo("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266");
+jft.address
+jft = await JFT.deploy("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266");
+const jft = await JFT.deploy("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266");
+const jft = a
