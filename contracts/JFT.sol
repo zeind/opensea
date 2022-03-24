@@ -18,6 +18,9 @@ contract JFT is ERC721Tradable, RandomlyAssigned, Pausable, LimitedTokensPerWall
         LimitedTokensPerWallet(2)
     {}
 
+    //TODO:  Implement pause and unpause, maybe add access controls for who can pause/unpause.
+
+
     function baseTokenURI() override public pure returns (string memory) {
         return "https://gateway.pinata.cloud/ipfs/QmVpuWQfNeZLD3FtWYVDvYfZe2pKp1uDKng3414Y4dYtQN/";
     }
