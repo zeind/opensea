@@ -19,10 +19,6 @@ contract JFTFactory is FactoryERC721, Ownable {
     address public proxyRegistryAddress;
     address public nftAddress;
     string public baseURI = "https://gateway.pinata.cloud/ipfs/QmUmxby4rS81JYbbpVL9pfaDQrJkfPCxtTJKNrGFt7hdi1/";
-    /*
-     * Enforce the existence of only 10 JFT creatures.
-     */
-    uint256 CREATURE_SUPPLY = 10;
 
     uint256 NUM_OPTIONS = 1;
     uint256 SINGLE_CREATURE_OPTION = 0;
@@ -35,7 +31,7 @@ contract JFTFactory is FactoryERC721, Ownable {
     }
 
     function name() override external pure returns (string memory) {
-        return "JFT Item Sale";
+        return "JFT Randomized";
     }
 
     function symbol() override external pure returns (string memory) {
@@ -57,7 +53,7 @@ contract JFTFactory is FactoryERC721, Ownable {
     }
 
     function fireTransferEvents(address _from, address _to) private {
-        for (uint256 i = 1; i < NUM_OPTIONS +1; i++) {
+        for (uint256 i = 0; i < NUM_OPTIONS; i++) {
             emit Transfer(_from, _to, i);
         }
     }

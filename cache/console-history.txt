@@ -1,3 +1,34 @@
+await jft.getUsedTokens();
+jft.getUsedTokens();
+jft = await JFT.attach("0x8060aDC4CB930a2E038Eb65E4770206CF42414F9");
+await fact.mint(0, "0xd3A98653285C71d6719F39205C596eB0Ee732aEf");
+await fact.setNFTAddress("0x8060aDC4CB930a2E038Eb65E4770206CF42414F9");
+await fact.mint(0, "0xd3A98653285C71d6719F39205C596eB0Ee732aEf").gas(500000);
+await fact.mint(0, "0xd3A98653285C71d6719F39205C596eB0Ee732aEf");
+await fact.name();
+fact.name();
+const fact = await Fact.attach("0xfc9c95Bb015Ee7a76cA79B144e33C28BBB507Ae3");
+const Fact = await ethers.getContractFactory("JFTFactory");
+await jft.getUsedTokens();
+await jft.availableTokenCount();
+jft.availableTokenCount();
+const jft = await JFT.attach("0x4D02dDb57e8495840A0213e9c63e06Bf67a153B4");
+const JFT = await ethers.getContractFactory("JFT");
+await ethers.getSigner();
+await facto.mint(0, "0x70997970c51812dc3a010c7d01b50e0d17dc79c8");
+await facto.name();
+facto.name();
+let facto = await fact.attach("0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9");
+factory = await fact.attach("0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9");
+let fact = await Fact;
+Fact = await Fact;
+const factory = Fact.attach("0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9");
+const Fact = ethers.getContractFactory("JFTFactory");
+.exit
+const jft = await JFT.deploy("0x70997970c51812dc3a010c7d01b50e0d17dc79c8");
+const factory = await Fact.deploy("0x5FbDB2315678afecb367f032d93F642f64180aa3", "0x5FbDB2315678afecb367f032d93F642f64180aa3");
+const Fact = await ethers.getContractFactory("JFTFactory");
+jft.address
 t
 let t = await q.wait();
 let q = await jft.mintTo("0x70997970c51812dc3a010c7d01b50e0d17dc79c8");
@@ -125,4 +156,17 @@ await jft.mintTo("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266");
 jft.address
 jft = await JFT.deploy("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266");
 const jft = await JFT.deploy("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266");
-const jft = a
+const jft = await JFT.deploy();
+const JFT = await ethers.getContractFactory("JFT");
+exit();
+exit
+ex9t
+compile
+jft.mintTo("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266");
+const jft = await JFT.deploy("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266");
+const jft = await JFT.deploy(0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266");
+const JFT = await ethers.getContractFactory("JFT");
+await ethers.getContractFactory("JFT");
+ethers.getContractFactory("JFT");
+ethers.getContract("JFT");
+ethers.getContract

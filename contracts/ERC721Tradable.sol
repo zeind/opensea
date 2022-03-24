@@ -23,10 +23,7 @@ contract ProxyRegistry {
 
 abstract contract ERC721Tradable is ERC721, ContextMixin, NativeMetaTransaction, Ownable {
     using SafeMath for uint256;
-    using Counters for Counters.Counter;    
 
-
-    Counters.Counter internal _nextTokenId;
     address proxyRegistryAddress;
 
     constructor(
@@ -35,32 +32,12 @@ abstract contract ERC721Tradable is ERC721, ContextMixin, NativeMetaTransaction,
         address _proxyRegistryAddress
     ) ERC721(_name, _symbol) {
         proxyRegistryAddress = _proxyRegistryAddress;
-        // nextTokenId is initialized to 1, since starting at 0 leads to higher gas cost for the first minter
-        _nextTokenId.increment();
         _initializeEIP712(_name);
-    }
-
-    /**
-     * @dev Mints a token to an address with a tokenURI.
-     * @param _to address of the future owner of the token
-     */
-    function mintTo(address _to) public virtual onlyOwner {
-        uint256 currentTokenId = _nextTokenId.current();
-        _nextTokenId.increment();
-        _safeMint(_to, currentTokenId);
-    }
-
-    /**
-        @dev Returns the total tokens minted so far.
-        1 is always subtracted from the Counter since it tracks the next available tokenId.
-     */
-    function totalSupply() public virtual view returns (uint256) {
-        return _nextTokenId.current() - 1;
     }
 
     function baseTokenURI() virtual public pure returns (string memory);
 
-    function tokenURI(uint256 _tokenId) override public pure returns (string memory) {
+    function tokenURI(uint256 _tokenId) override virtual public pure returns (string memory) {
         return string(abi.encodePacked(baseTokenURI(), Strings.toString(_tokenId)));
     }
 
@@ -69,6 +46,7 @@ abstract contract ERC721Tradable is ERC721, ContextMixin, NativeMetaTransaction,
      */
     function isApprovedForAll(address owner, address operator)
         override
+        virtual
         public
         view
         returns (bool)
@@ -87,6 +65,7 @@ abstract contract ERC721Tradable is ERC721, ContextMixin, NativeMetaTransaction,
      */
     function _msgSender()
         internal
+        virtual
         override
         view
         returns (address sender)

@@ -37,8 +37,8 @@
       ]
     },
     "C:\\NFT\\clean-openSea\\contracts\\ERC721Tradable.sol": {
-      "lastModificationDate": 1647543740210,
-      "contentHash": "adc1a4b7e96ff0524d472613e000c521",
+      "lastModificationDate": 1648140927717,
+      "contentHash": "c47a1710f8d7500addcf984e035c7dda",
       "sourceName": "contracts/ERC721Tradable.sol",
       "solcConfig": {
         "version": "0.8.1",
@@ -628,8 +628,8 @@
       ]
     },
     "C:\\NFT\\clean-openSea\\contracts\\JFT.sol": {
-      "lastModificationDate": 1647695750777,
-      "contentHash": "5954c6bcf149904665011c8fa0cdb393",
+      "lastModificationDate": 1648141822175,
+      "contentHash": "82a83fe9c9879e7be87cdc839afbef0e",
       "sourceName": "contracts/JFT.sol",
       "solcConfig": {
         "version": "0.8.1",
@@ -656,7 +656,9 @@
       },
       "imports": [
         "./ERC721Tradable.sol",
-        "@1001-digital/erc721-extensions/contracts/RandomlyAssigned.sol"
+        "@1001-digital/erc721-extensions/contracts/RandomlyAssigned.sol",
+        "@1001-digital/erc721-extensions/contracts/LimitedTokensPerWallet.sol",
+        "@openzeppelin/contracts/security/Pausable.sol"
       ],
       "versionPragmas": [
         "^0.8.0"
@@ -666,8 +668,8 @@
       ]
     },
     "C:\\NFT\\clean-openSea\\contracts\\JFTFactory.sol": {
-      "lastModificationDate": 1647532437017,
-      "contentHash": "7814beb3f7c0a289450d9ad724abdaa6",
+      "lastModificationDate": 1647786137138,
+      "contentHash": "308f9de3341d3287be52b535df2634ce",
       "sourceName": "contracts/JFTFactory.sol",
       "solcConfig": {
         "version": "0.8.1",
@@ -812,6 +814,116 @@
       ],
       "artifacts": [
         "WithLimitedSupply"
+      ]
+    },
+    "C:\\NFT\\clean-openSea\\node_modules\\@1001-digital\\erc721-extensions\\contracts\\LimitedTokensPerWallet.sol": {
+      "lastModificationDate": 1647541762160,
+      "contentHash": "228fb3a1c31ead6011e6569433165701",
+      "sourceName": "@1001-digital/erc721-extensions/contracts/LimitedTokensPerWallet.sol",
+      "solcConfig": {
+        "version": "0.8.1",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC721/ERC721.sol",
+        "@1001-digital/check-address/contracts/CheckAddress.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "LimitedTokensPerWallet"
+      ]
+    },
+    "C:\\NFT\\clean-openSea\\node_modules\\@openzeppelin\\contracts\\security\\Pausable.sol": {
+      "lastModificationDate": 1647460255373,
+      "contentHash": "9c2dccab8e3a43a18c41e358763fe4d8",
+      "sourceName": "@openzeppelin/contracts/security/Pausable.sol",
+      "solcConfig": {
+        "version": "0.8.1",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Pausable"
+      ]
+    },
+    "C:\\NFT\\clean-openSea\\node_modules\\@1001-digital\\check-address\\contracts\\CheckAddress.sol": {
+      "lastModificationDate": 1648140278349,
+      "contentHash": "a3113092c278782141d08f1c8fd30e14",
+      "sourceName": "@1001-digital/check-address/contracts/CheckAddress.sol",
+      "solcConfig": {
+        "version": "0.8.1",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CheckAddress"
       ]
     }
   }
